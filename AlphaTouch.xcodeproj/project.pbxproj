@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120A41DC1688FC340044C91B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120A41DB1688FC340044C91B /* UIKit.framework */; };
+		120A41DE1688FC340044C91B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120A41DD1688FC340044C91B /* Foundation.framework */; };
+		120A41E01688FC340044C91B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120A41DF1688FC340044C91B /* CoreGraphics.framework */; };
+		120A41E61688FC340044C91B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 120A41E41688FC340044C91B /* InfoPlist.strings */; };
+		120A41E81688FC340044C91B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120A41E71688FC340044C91B /* main.m */; };
+		120A41EC1688FC340044C91B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120A41EB1688FC340044C91B /* AppDelegate.m */; };
+		120A41EE1688FC340044C91B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 120A41ED1688FC340044C91B /* Default.png */; };
+		120A41F01688FC340044C91B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 120A41EF1688FC340044C91B /* Default@2x.png */; };
+		120A41F21688FC340044C91B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 120A41F11688FC340044C91B /* Default-568h@2x.png */; };
+		120A41F51688FC340044C91B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120A41F41688FC340044C91B /* ViewController.m */; };
+		120A41F81688FC340044C91B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120A41F61688FC340044C91B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120A41D71688FC340044C91B /* AlphaTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		120A41DB1688FC340044C91B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		120A41DD1688FC340044C91B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		120A41DF1688FC340044C91B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		120A41E31688FC340044C91B /* AlphaTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlphaTouch-Info.plist"; sourceTree = "<group>"; };
+		120A41E51688FC340044C91B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		120A41E71688FC340044C91B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120A41E91688FC340044C91B /* AlphaTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphaTouch-Prefix.pch"; sourceTree = "<group>"; };
+		120A41EA1688FC340044C91B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		120A41EB1688FC340044C91B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		120A41ED1688FC340044C91B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		120A41EF1688FC340044C91B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		120A41F11688FC340044C91B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		120A41F31688FC340044C91B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		120A41F41688FC340044C91B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		120A41F71688FC340044C91B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120A41D41688FC340044C91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A41DC1688FC340044C91B /* UIKit.framework in Frameworks */,
+				120A41DE1688FC340044C91B /* Foundation.framework in Frameworks */,
+				120A41E01688FC340044C91B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120A41CC1688FC340044C91B = {
+			isa = PBXGroup;
+			children = (
+				120A41E11688FC340044C91B /* AlphaTouch */,
+				120A41DA1688FC340044C91B /* Frameworks */,
+				120A41D81688FC340044C91B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		120A41D81688FC340044C91B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				120A41D71688FC340044C91B /* AlphaTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		120A41DA1688FC340044C91B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120A41DB1688FC340044C91B /* UIKit.framework */,
+				120A41DD1688FC340044C91B /* Foundation.framework */,
+				120A41DF1688FC340044C91B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		120A41E11688FC340044C91B /* AlphaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				120A41EA1688FC340044C91B /* AppDelegate.h */,
+				120A41EB1688FC340044C91B /* AppDelegate.m */,
+				120A41F31688FC340044C91B /* ViewController.h */,
+				120A41F41688FC340044C91B /* ViewController.m */,
+				120A41F61688FC340044C91B /* ViewController.xib */,
+				120A41E21688FC340044C91B /* Supporting Files */,
+			);
+			path = AlphaTouch;
+			sourceTree = "<group>";
+		};
+		120A41E21688FC340044C91B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				120A41E31688FC340044C91B /* AlphaTouch-Info.plist */,
+				120A41E41688FC340044C91B /* InfoPlist.strings */,
+				120A41E71688FC340044C91B /* main.m */,
+				120A41E91688FC340044C91B /* AlphaTouch-Prefix.pch */,
+				120A41ED1688FC340044C91B /* Default.png */,
+				120A41EF1688FC340044C91B /* Default@2x.png */,
+				120A41F11688FC340044C91B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120A41D61688FC340044C91B /* AlphaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120A41FB1688FC340044C91B /* Build configuration list for PBXNativeTarget "AlphaTouch" */;
+			buildPhases = (
+				120A41D31688FC340044C91B /* Sources */,
+				120A41D41688FC340044C91B /* Frameworks */,
+				120A41D51688FC340044C91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaTouch;
+			productName = AlphaTouch;
+			productReference = 120A41D71688FC340044C91B /* AlphaTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		120A41CE1688FC340044C91B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vishal Sunak";
+			};
+			buildConfigurationList = 120A41D11688FC340044C91B /* Build configuration list for PBXProject "AlphaTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 120A41CC1688FC340044C91B;
+			productRefGroup = 120A41D81688FC340044C91B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120A41D61688FC340044C91B /* AlphaTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120A41D51688FC340044C91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A41E61688FC340044C91B /* InfoPlist.strings in Resources */,
+				120A41EE1688FC340044C91B /* Default.png in Resources */,
+				120A41F01688FC340044C91B /* Default@2x.png in Resources */,
+				120A41F21688FC340044C91B /* Default-568h@2x.png in Resources */,
+				120A41F81688FC340044C91B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120A41D31688FC340044C91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A41E81688FC340044C91B /* main.m in Sources */,
+				120A41EC1688FC340044C91B /* AppDelegate.m in Sources */,
+				120A41F51688FC340044C91B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		120A41E41688FC340044C91B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120A41E51688FC340044C91B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		120A41F61688FC340044C91B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120A41F71688FC340044C91B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		120A41F91688FC340044C91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		120A41FA1688FC340044C91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120A41FC1688FC340044C91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				INFOPLIST_FILE = "AlphaTouch/AlphaTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		120A41FD1688FC340044C91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlphaTouch/AlphaTouch-Prefix.pch";
+				INFOPLIST_FILE = "AlphaTouch/AlphaTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120A41D11688FC340044C91B /* Build configuration list for PBXProject "AlphaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120A41F91688FC340044C91B /* Debug */,
+				120A41FA1688FC340044C91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120A41FB1688FC340044C91B /* Build configuration list for PBXNativeTarget "AlphaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120A41FC1688FC340044C91B /* Debug */,
+				120A41FD1688FC340044C91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 120A41CE1688FC340044C91B /* Project object */;
+}
