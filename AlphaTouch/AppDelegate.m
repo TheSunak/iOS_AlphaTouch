@@ -59,7 +59,7 @@
     //-------------BASIC EXAMPLE BEFORE REFACTOR------------------------------------*/
     
     
-    //--------------------REFACTOR-----------------------------------
+    //--------------------REFACTORED-----------------------------------
      
     CGRect viewRect = [[UIScreen mainScreen] bounds];
 
@@ -79,7 +79,7 @@
      [self.window makeKeyAndVisible];    //Call the method to make the window visible
      
      NSLog(@"Screen is %f tall and %f wide", viewRect.size.height, viewRect.size.width);
-     //-------------REFACTOR------------------------------------//
+     //-------------REFACTORED------------------------------------//
    
     
 

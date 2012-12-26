@@ -12,4 +12,11 @@
 
             //subclass          //superclass
 
+    //Declare a method in the header for the buttonPressed that we added:
+    - (void)buttonPressed: (UIButton *)sender;
+
+    //The common practice is to have subViews listed in as properties in the header:
+    @property (weak, nonatomic) UIButton *fiftyPercentButton;
+    @property (weak, nonatomic) UIButton *hundredPercentButton;
+
 @end
