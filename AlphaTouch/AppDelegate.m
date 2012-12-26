@@ -19,7 +19,74 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"Hello World"); // this line outputs to the console on the launch of the app
+    
+    /*--------------------BASIC EXAMPLE BEORE REFACTOR-----------------------------------
+    
+    //--------Find the Dimensions of the screen--------
+    // UIScreen *screen = [UIScreen mainScreen];
+    //CGRect viewRect = [screen bounds];
+    
+   
+    //All in one line:
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    
+    //The "Canvas"
+    //1) Allocate memory for the window
+    //2) Initialize object with frame size to the bounds of the main screen
+    // we can use self because window already defined in the .h file as an instance variable
+    
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    //The "Paintbrush"
+    //Receive all the non-keyboard and touch events here:
+    
+    UIViewController *colorTouchVC = [[UIViewController alloc] init];
+    self.window.rootViewController = colorTouchVC; //This ViewController gets control of the window
+    
+    //The "Paint"
+    UIView *colorView = [[UIView alloc] initWithFrame:viewRect];    //creates a view the size of the whole screen
+    
+    //Set Color of the view:
+    
+    colorView.backgroundColor = [UIColor yellowColor];
+    colorTouchVC.view = colorView;
+    
+    [self.window makeKeyAndVisible];    //Call the method to make the window visible
+    
+    NSLog(@"Screen is %f tall and %f wide", viewRect.size.height, viewRect.size.width);
+    //-------------BASIC EXAMPLE BEFORE REFACTOR------------------------------------*/
+    
+    
+    //--------------------REFACTOR-----------------------------------
+     
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+
+     //The "Canvas"
+     self.window = [[UIWindow alloc] initWithFrame:viewRect];
+     
+     //The "Paintbrush"
+     //Receive all the non-keyboard and touch events here:
+     
+     self.viewController = [[ViewController alloc] init];
+    
+     self.window.rootViewController =  self.viewController; //This ViewController gets control of the window
+     
+     //The "Paint" ... Moved to the ViewController.m
+    
+     
+     [self.window makeKeyAndVisible];    //Call the method to make the window visible
+     
+     NSLog(@"Screen is %f tall and %f wide", viewRect.size.height, viewRect.size.width);
+     //-------------REFACTOR------------------------------------//
+   
+    
+
+    
     return YES;
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
